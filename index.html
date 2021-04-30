@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="body">
+    <div id="navbar">
+        <h1>DojoWeather</h1>
+        <h3 onclick="alert('Loading weather report...')" >Burbank</h3>
+        <h3 onclick="alert('Loading weather report...')" >Chicago</h3>
+        <h3 onclick="alert('Loading weather report...')" >Dallas</h3>
+    </div>
+    <div id="tagline">
+        <h1>San Jose</h1>
+        <h4 id="temp">show temperature in
+        <select>
+            <option>&#8457</option>
+            <option>&#8451</option>
+        </select>
+        </h4>
+    </div>
+    <div id="forcast">
+    <div class="box">
+            <h1>Today</h1>
+            <img class="cloud" src="assets/some_rain.png" alt="rain">
+            <h3>some rain</h3>
+            <div class="numb">
+            <h3 class="red" >75 &#730</h3>
+            <h3 class="blue" >65 &#730</h3>
+            </div>
+        </div>
+        <div class="box">
+            <h1 id="tom" >Tomorrow</h1>
+            <img class="cloud" src="assets/some_sun.png" alt="rain">
+            <h3>some sun</h3>
+            <div class="numb">
+            <h3 class="red" >80 &#730</h3>
+            <h3 class="blue" >66 &#730</h3>
+            </div>
+        </div>
+        <div class="box">
+            <h1>Friday</h1>
+            <img class="cloud" src="assets/some_clouds.png" alt="rain">
+            <h3>some clouds</h3>
+            <div class="numb">
+            <h3 class="red" >69 &#730</h3>
+            <h3 class="blue" >61 &#730</h3>
+            </div>
+        </div>
+        <div class="box">
+            <h1>Saturday</h1>
+            <img class="cloud" src="assets/some_sun.png" alt="rain">
+            <h3>some sun</h3>
+            <div class="numb">
+            <h3 class="red" >78 &#730</h3>
+            <h3 class="blue" >70 &#730</h3>
+            </div>
+        </div>
+    </div>
+    <div id="message">
+        <div id="cookie">
+        <img class="pict" src="assets/cookie.png" alt="cook">
+        <h4>Stop! Cookie time <p>We use cookies (sadly not the edible ones) to 
+            personalize content and ads, to provide social media features and to analyse our traffic.</p>
+            <a href="read">Read more...</a></h4>
+        <button onclick="makeit()" class="button">I Accept</button>
+        </div>   
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
